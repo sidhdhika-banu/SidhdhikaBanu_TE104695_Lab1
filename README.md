@@ -24,17 +24,16 @@ Make sure the following are installed and working:
 
 1. **Java 17**  
    Check version:
-   ```bash
+   ```
    java -version
-````
-
-2. **Maven**
+   
+2.  **Maven**
    Check version:
 
-   ```bash
-   mvn -version
    ```
-
+   mvn -version
+  
+   ```
 3. **VS Code Extensions** (Recommended)
 
    * Spring Boot Extension Pack
