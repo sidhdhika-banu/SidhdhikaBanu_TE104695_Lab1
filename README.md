@@ -1,9 +1,11 @@
-# Student Course Portal  
+
+# Student Course Portal (Microservices Project)  
 # Sidhdhika Banu (ICT/21/814)  
 
-This project implements a Student Course Portal using a Microservices Architecture.  
-Each microservice runs independently, has its own database, and communicates with others via REST APIs.
+This project implements a **Student Course Portal** using a **Microservices Architecture**.  
+Each microservice runs independently, has its own database, and communicates with others via **REST APIs**.
 
+---
 
 ## Microservices List
 
@@ -15,6 +17,7 @@ Each microservice runs independently, has its own database, and communicates wit
 | Result Service       | 8084 |
 | Notification Service | 8085 |
 
+---
 
 ## Prerequisites
 Make sure the following are installed and working:
@@ -38,6 +41,7 @@ Make sure the following are installed and working:
    * Maven for Java
    * Java Developer Pack
 
+---
 
 ## H2 Database
 
@@ -52,10 +56,11 @@ Access the H2 console via:
 | Result       | [http://localhost:8084/h2-console](http://localhost:8084/h2-console) |
 | Notification | [http://localhost:8085/h2-console](http://localhost:8085/h2-console) |
 
+---
 
 ## Running Each Microservice
 
- **Important:** Open each microservice in its **own VS Code terminal** and run separately.
+⚠ **Important:** Open each microservice in its **own VS Code terminal** and run separately.
 
 1. **Student Service (8081)**
    Folder:
@@ -124,6 +129,7 @@ Access the H2 console via:
    mvn spring-boot:run
    ```
 
+---
 
 ## Testing With Postman
 
@@ -131,7 +137,7 @@ Access the H2 console via:
 
 * `GET /students` 
 * `POST /students` 
-* `GET /students/{id}`
+* `GET /students/{id}` 
 
 ### Course Service
 
@@ -141,7 +147,7 @@ Access the H2 console via:
 
 ### Enrollment Service
 
-* `POST /enrollments` 
+* `POST /enrollments`t
 
 Body Example:
 
@@ -156,7 +162,8 @@ Body Example:
 
 ### Result Service
 
-* `POST /results`
+* `POST /results` 
+
 
 * `GET /results/student/{id}` 
 
@@ -164,5 +171,4 @@ Body Example:
 
 * `POST /notify/enrollment` 
 
-ssion”** to make it exactly like a formal lab submission. Do you want me to add that?
 ```
