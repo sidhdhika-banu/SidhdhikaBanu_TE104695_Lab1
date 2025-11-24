@@ -160,6 +160,3 @@ Access the H2 console via:
 ### Notification Service
 
 * `POST /notify/enrollment`
-
-```
-
