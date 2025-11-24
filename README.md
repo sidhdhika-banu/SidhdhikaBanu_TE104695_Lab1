@@ -1,63 +1,45 @@
 # Student Course Portal (Microservices Project)
 # Sidhdhika Banu (ICT/21/814)
 
-
 This project implements a **Student Course Portal** using a **Microservices Architecture**.
 Each microservice runs independently, has its own database, and communicates with others via **REST APIs**.
 
-
 ## Microservices List
+Service Name        -Port 
 
-| Service Name         | Port |
-| -------------------- | ---- |
-| Student Service      | 8081 |
-| Course Service       | 8082 |
-| Enrollment Service   | 8083 |
-| Result Service       | 8084 |
-| Notification Service | 8085 |
-
----
+Student Service      -8081 
+Course Service       -8082 
+Enrollment Service   -8083 
+Result Service       -8084 
+Notification Service -8085 
 
 ## Prerequisites
-
 Make sure the following are installed and working:
-
 1. **Java 17**
    Check version:
-
 ```
 java -version
 ```
-
 2. **Maven**
    Check version:
-
 ```
 mvn -version
 ```
-
 3. **VS Code Extensions** (Recommended)
-
 * Spring Boot Extension Pack
 * Maven for Java
 * Java Developer Pack
 
----
-
 ## H2 Database
-
 Each microservice uses its **own H2 in-memory database**.
 Access the H2 console via:
 
-| Service      | H2 Console URL                                                       |
-| ------------ | -------------------------------------------------------------------- |
-| Student      | [http://localhost:8081/h2-console](http://localhost:8081/h2-console) |
-| Course       | [http://localhost:8082/h2-console](http://localhost:8082/h2-console) |
-| Enrollment   | [http://localhost:8083/h2-console](http://localhost:8083/h2-console) |
-| Result       | [http://localhost:8084/h2-console](http://localhost:8084/h2-console) |
-| Notification | [http://localhost:8085/h2-console](http://localhost:8085/h2-console) |
-
----
+Service       -H2 Console URL                                                       
+Student       -[http://localhost:8081/h2-console](http://localhost:8081/h2-console) 
+Course        -[http://localhost:8082/h2-console](http://localhost:8082/h2-console) 
+Enrollment    -[http://localhost:8083/h2-console](http://localhost:8083/h2-console) 
+Result        -[http://localhost:8084/h2-console](http://localhost:8084/h2-console) 
+Notification  -[http://localhost:8085/h2-console](http://localhost:8085/h2-console)
 
 ## Running Each Microservice
 
