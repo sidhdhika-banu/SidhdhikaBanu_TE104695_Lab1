@@ -1,4 +1,4 @@
-````
+
 # Student Course Portal (Microservices Project)  
 **Submitted by:** Sidhdhika Banu (ICT/21/814)  
 
