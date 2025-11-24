@@ -1,6 +1,6 @@
-
+````
 # Student Course Portal (Microservices Project)  
-# Sidhdhika Banu (ICT/21/814)  
+**Submitted by:** Sidhdhika Banu (ICT/21/814)  
 
 This project implements a **Student Course Portal** using a **Microservices Architecture**.  
 Each microservice runs independently, has its own database, and communicates with others via **REST APIs**.
@@ -101,7 +101,7 @@ Access the H2 console via:
    mvn spring-boot:run
    ```
 
-    Must start Student (8081) and Course (8082) first because Enrollment calls them.
+   ⚠ Must start Student (8081) and Course (8082) first because Enrollment calls them.
 
 4. **Result Service (8084)**
    Folder:
@@ -135,40 +135,31 @@ Access the H2 console via:
 
 ### Student Service
 
-* `GET /students` 
-* `POST /students` 
-* `GET /students/{id}` 
+* `GET /students` – Get all students
+* `POST /students` – Add a student
+* `GET /students/{id}` – Get a student by ID
 
 ### Course Service
 
 * `GET /courses` 
-* `POST /courses`
+* `POST /courses` 
 * `GET /courses/{id}` 
 
 ### Enrollment Service
 
-* `POST /enrollments`t
+* `POST /enrollments` – Enroll a student
 
-Body Example:
-
-```json
-{
-  "studentId": 1,
-  "courseId": 1
-}
-```
-
-* `GET /enrollments/student/{id}` 
+* `GET /enrollments/student/{id}`
 
 ### Result Service
 
-* `POST /results` 
-
+* `POST /results` – Add a result
 
 * `GET /results/student/{id}` 
 
 ### Notification Service
 
-* `POST /notify/enrollment` 
+* `POST /notify/enrollment`
 
 ```
+
